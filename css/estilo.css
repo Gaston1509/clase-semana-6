@@ -1,0 +1,139 @@
+*{
+	/*Defino font */
+	font-family: 'Urbanist', sans-serif;
+	/*Defino size para usar em*/
+	font-size: 14pt;
+	/* reset */
+	padding: 0;
+	margin: 0;
+}
+
+/* HEADER */
+.barraDeMenu{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(187, 89, 14);
+	height: 4em;
+	
+	/*barra estatica*/
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+.menuList{
+	display: flex;
+	width: 500px;
+	justify-content: space-around;
+}
+.menuList li{
+	list-style: none;
+} 
+.menuList li a{
+	text-decoration: none;
+	color: whitesmoke;
+} 
+
+
+	
+/* * G A L E R I A */
+.primerContenedor{
+	display: flex;
+	justify-content: center;
+	background-image: url("../img/fondouno.jpg");
+	width: 100%;
+	height: 65vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.primerContenedor h2{
+	display: flex;
+	justify-content: center;
+	align-self: flex-end;
+	font-size: 15em;
+
+	/* position: relative;
+	top: 70%; */
+
+	color: #f1f0f185;
+	
+}
+.galeria{
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
+	
+
+}
+.galeria h3{
+	padding: 30px;
+	text-align: center;
+}
+.galeria--cont{
+	display: flex;
+	flex-flow: wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 15px;
+}
+.item-img{
+	width: 300px;
+	height: 200px;
+	overflow: hidden;
+}
+.item-img img{
+	width: 100%;	
+}
+
+
+
+/* * I N F O R M A C I O N */
+.us-content{
+	display: flex;
+	justify-content: center;
+}
+.us-article{
+	width: 600px;
+	line-height: 40px;	
+	text-align: center;
+	margin-bottom: 20px;
+	
+
+}
+	
+
+
+
+
+
+/* * M E T O D O  D E  P A G O */
+.compra{
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+}
+
+
+.img-delivery{
+
+	display: flex;
+	width: 400px;
+	height: 300px;
+}
+.img-delivery img{
+	display: flex;
+	width: 100%;
+	margin-bottom: 20px;
+}
+ 
+
+
+
+
+/* P I E */
+.pie{
+	display: flex;
+	align-items: center;
+	background-color: rgb(187, 89, 14);
+	height: 80px;
+}
